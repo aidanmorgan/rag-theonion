@@ -16,7 +16,7 @@ from langchain.prompts import PromptTemplate
 article_model = SentenceTransformer('all-MiniLM-L6-v2')
 
 conn = psycopg2.connect(database="rag_scratch",
-                        host="192.168.1.110",
+                        host="localhost",
                         user="postgres",
                         port="5432")
 register_vector(conn)

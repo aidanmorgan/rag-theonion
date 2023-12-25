@@ -1,6 +1,5 @@
 requests
 beautifulsoup4
-tqdm
 sentence_transformers
 psycopg2-binary
 pgvector
