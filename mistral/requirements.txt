@@ -1,0 +1,6 @@
+ctransformers
+simple-parsing
+sentence_transformers
+psycopg2-binary
+pgvector
+langchain
