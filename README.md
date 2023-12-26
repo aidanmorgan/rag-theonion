@@ -40,3 +40,7 @@ cd mistral
 pip -U -r requirements.txt
 python mistral.py
 ```
+
+```
+ollama create onion -f ./Modelfile
+```

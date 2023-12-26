@@ -23,7 +23,7 @@ def main():
 
 
                 conn = psycopg2.connect(database="rag_scratch",
-                                        host="localhost",
+                                        host="192.168.1.110",
                                         user="postgres",
                                         port="5432")
                 register_vector(conn)
